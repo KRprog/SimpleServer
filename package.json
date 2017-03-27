@@ -1,0 +1,21 @@
+{
+  "name": "testserver",
+  "version": "1.0.0",
+  "description": "Servidor de exemplo para android.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "server",
+    "api"
+  ],
+  "author": "Rafael Cunha da Silva",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "morgan": "^1.8.1"
+  }
+}
