@@ -1,18 +1,18 @@
-# Server
+# Server 
 
-É servidor simples com alguns endpoints protegidos por um
-token JWT para usuário.
+É um servidor simples com alguns endpoints protegidos por
+autenticação JWT.
 
 Como por para funcionar:
 
- * É necessário ter o NodeJS instalado na máquina, que pode ser aquirido no link: https://nodejs.org/en/download/
- * Faça a instalação do NodeJS
- * Faça o git clone ou o download desse repositório
- * Abra um terminal/cmd e va até a pasta criada no processo anterior
- * Execute o comando npm install, para instalar as dependencias 
+ * É necessário ter o NodeJS instalado na máquina, que pode ser adquirido no link: https://nodejs.org/en/download/
+ * Faça a instalação do NodeJS.
+ * Faça um git clone ou o download desse repositório.
+ * Abra um terminal/cmd e vá até a pasta criada no processo anterior.
+ * Execute o comando npm install, para instalar as dependencias .
  * E por último execute o comando **node index.js**
 
-Uma vez executado os passos anteriores, abra um navegador e entre com as seguintes urls, e verifique os resultados:
+Uma vez executado os passos anteriores, abra um navegador e entre com as seguintes urls e verifique os resultados:
 
 * http:localhost:5000/
 * http:localhost:5000/json
