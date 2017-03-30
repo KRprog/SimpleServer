@@ -16,7 +16,7 @@ Uma vez executado os passos anteriores, abra um navegador e entre com as seguint
 
 * http:localhost:5000/
 * http:localhost:5000/json
-* http:localhost:5000/authenticate?user=testepassword=123456
+* http:localhost:5000/authenticate?user=teste&password=123456
 * http:localhost:5000//api/protected?token=(token gerado na autenticação)
 * http:localhost:5000/api/users?token=(token gerado na autenticação)
 
@@ -26,5 +26,5 @@ deve se apenas manter a mesma porta, nesse caso a porta 5000.
 Ex.
 * http://192.168.0.100:5000/json
 
-Assim se torna possível acessar esse servidor na sua rede local de qualquer dispositivo quee steja ana mesma rede.
-Seja um outro computaodor,celular, maquina virtual ou até mesmo um emuladordo android.
+Assim torna-se possível acessar esse servidor na sua rede local de qualquer dispositivo que esteja na mesma rede,
+seja um outro computaodor, celular, máquina virtual ou até mesmo em um emulador do android.
